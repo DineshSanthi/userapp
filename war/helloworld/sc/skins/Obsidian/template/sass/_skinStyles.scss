@@ -1,0 +1,106 @@
+//THE COMMENT BELOW IS A NOTE THAT WILL APPEAR IN GENERATED .css, 
+//IT DOES NOT APPLY TO THIS .scss FILE, SO YOU MAY EDIT IT.
+
+//*===========* Obsidian CSS Customization *===========*/
+@import "compass/css3";
+
+/* -----------------------------------
+// css styles
+// -----------------------------------*/
+
+.html,
+.body {
+    background: $standard_bgColor;
+}
+
+a:link {
+    color: #53a2dd;
+}
+a:visited {
+    color: #1086dd;
+}
+
+// FireFox (Mozilla) renders a strange text selection background color
+::-moz-selection {
+    background-color: #2874ad;
+}
+
+
+// actual styles beyond this point 
+.vScrollStartDisabled,
+.vScrollStart,
+.vScrollStartOver,
+.vScrollStartDown {
+    border-left: $scrollbar_default_border;
+    border-right: $scrollbar_default_border;
+}
+.vScrollEndDisabled,
+.vScrollEnd,
+.vScrollEndOver,
+.vScrollEndDown {
+    border-left: $scrollbar_default_border;
+    border-right: $scrollbar_default_border;
+}
+.hScrollStartDisabled,
+.hScrollStart,
+.hScrollStartOver,
+.hScrollStartDown {
+    border-left: $scrollbar_default_border;
+    border-top: $scrollbar_default_border;
+    border-bottom: $scrollbar_default_border;
+}
+.hScrollEndDisabled,
+.hScrollEnd,
+.hScrollEndOver,
+.hScrollEndDown {
+    border-right: $scrollbar_default_border;
+    border-top: $scrollbar_default_border;
+    border-bottom: $scrollbar_default_border;
+}
+
+.hScrollTrack {
+    border-top: $scrollbar_default_border;
+    border-bottom: $scrollbar_default_border;
+}
+.hScrollTrackDown {
+    border-top: $scrollbar_default_border;
+    border-bottom: $scrollbar_default_border;
+}
+.hScrollTrackOver {
+    border-top: $scrollbar_default_border;
+    border-bottom: $scrollbar_default_border;
+}
+.hScrollTrackDisabled {
+    border-top: $scrollbar_default_border;
+    border-bottom: $scrollbar_default_border;
+}
+
+.vScrollTrack {
+    border-left: $scrollbar_default_border;
+    border-right: $scrollbar_default_border;
+}
+.vScrollTrackDown {
+    border-left: $scrollbar_default_border;
+    border-right: $scrollbar_default_border;
+}
+.vScrollTrackOver {
+    border-left: $scrollbar_default_border;
+    border-right: $scrollbar_default_border;
+}
+.vScrollTrackDisabled {
+    border-left: $scrollbar_default_border;
+    border-right: $scrollbar_default_border;
+}
+
+.vScrollThumb,
+.vScrollThumbOver,
+.hScrollThumb,
+.hScrollThumbOver {
+    background: transparent;
+}
+
+
+// Progressbar
+.progressBarTitle {
+    color: $standard_black
+}

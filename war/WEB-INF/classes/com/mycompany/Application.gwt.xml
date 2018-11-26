@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.6.4//EN" "http://google-web-toolkit.googlecode.com/svn/tags/1.6.4/distro-source/core/src/gwt-module.dtd">
+<module rename-to='helloworld'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+     <inherits name='com.google.gwt.user.User'/>
+    <inherits name="com.google.gwt.core.Core"/>
+    <inherits name="com.google.gwt.user.History"/>
+    <inherits name="com.google.gwt.i18n.I18N"/>
+
+    <inherits name="com.smartgwt.SmartGwtNoScript"/>
+    <inherits name="com.smartgwt.DrawingNoScript"/>
+    <inherits name="com.smartgwt.tools.SmartGwtTools"/>
+
+    <inherits name="com.smartclient.theme.graphite.GraphiteResources"/>
+    <inherits name="com.smartclient.theme.simplicity.SimplicityResources"/>
+    <inherits name="com.smartclient.theme.enterprise.EnterpriseResources"/>
+    <inherits name="com.smartclient.theme.enterpriseblue.EnterpriseBlueResources"/>
+    <inherits name="com.smartclient.theme.obsidian.ObsidianResources"/>
+    <inherits name="com.smartclient.theme.stratus.StratusResources"/>
+
+    <inherits name="com.smartclient.theme.fleet.FleetResources"/>
+    <inherits name="com.smartclient.theme.treefrog.TreeFrogResources"/>
+    <inherits name="com.smartclient.theme.blackops.BlackOpsResources"/>
+    <inherits name="com.smartclient.theme.silverwave.SilverWaveResources"/>
+    
+    
+  <entry-point class='com.mycompany.client.Application'/>
+  
+   <extend-property name="locale" values="fr"/>
+   
+    <extend-property name="locale" values="en"/>
+    
+    <extend-property name="locale" values="tn"/>
+
+<set-property-fallback name="locale" value="en"/>
+
+</module>

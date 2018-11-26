@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.gwtplugins.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="var" path="REPO_LIB/isomorphic/smartgwt/12p/smartgwt.jar"/>
+	<classpathentry kind="var" path="REPO_LIB/isomorphic/smartgwt/12p/smartgwt-skins.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/LIB/keycloak-admin-client-4.4.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/TechMind/.m2/repository/org/keycloak/keycloak-core/3.1.0.Final/keycloak-core-3.1.0.Final.jar" sourcepath="C:/Users/TechMind/.m2/repository/org/keycloak/keycloak-core/3.1.0.Final/keycloak-core-3.1.0.Final-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="keycloak-core-3.1.0.Final.jar"/>
+			<attribute name="maven.groupId" value="org.keycloak"/>
+			<attribute name="maven.artifactId" value="keycloak-core"/>
+			<attribute name="maven.version" value="3.1.0.Final"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
