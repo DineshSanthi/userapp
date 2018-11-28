@@ -70,7 +70,7 @@
 	
 </script>
 
-<!-- <script>
+ <script>
 
     var keycloak = Keycloak('keycloak.json');
 
@@ -99,7 +99,7 @@
     
     setTimeout(keycloak.updateToken(5), 4000);
 
-</script> -->
+</script> 
 
 
 <html>
