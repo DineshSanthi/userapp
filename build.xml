@@ -24,8 +24,8 @@
     <!-- Add any additional non-server libs (such as JUnit) -->
     <fileset dir="war/WEB-INF/lib" includes="**/*.jar"/>
 	
-  	<pathelement location="../smartgwt.jar"/>
-	<pathelement location="../smartgwt-skins.jar"/>
+  	<pathelement location="C:/Users/TechMind/git/repodepo/smartgwt.jar"/>
+	<pathelement location="C:/Users/TechMind/git/repodepo/smartgwt-skins.jar"/>
 	
   </path>
 
