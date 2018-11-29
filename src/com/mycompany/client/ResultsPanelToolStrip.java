@@ -121,7 +121,7 @@ public class ResultsPanelToolStrip extends ToolStrip {
 		public void onClick(ClickEvent event) {
 			final Window winModal = new Window();
 			winModal.setAutoSize(true);
-			winModal.setTitle("Search Record");
+			winModal.setTitle("Insert Record");
 			winModal.setShowMinimizeButton(false);
 			winModal.setIsModal(true);
 			winModal.setShowModalMask(true);
@@ -166,19 +166,19 @@ public class ResultsPanelToolStrip extends ToolStrip {
     		resultsListGrid.refreshFields();
         }   
     });
-    
+  /*  
     ToolStripButton exportButton = new ToolStripButton();  
     exportButton.setIcon("icons/16/export1.png"); 
     exportButton.addClickHandler(new ClickHandler() {  
     	public void onClick(ClickEvent event) {  
     		
         }   
-    });
+    });*/
     
     this.addMember(uploadPanel);
     this.addMember(insertButton);
     this.addButton(uploadButton);
-    this.addButton(exportButton);
+//    this.addButton(exportButton);
     this.addButton(refreshButton);
     this.addButton(deleteButton);
     
