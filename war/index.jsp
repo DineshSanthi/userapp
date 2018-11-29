@@ -209,8 +209,8 @@ document.write("<"+"script src=helloworld/sc/skins/" + currentSkin + "/load_skin
 
 <script type="text/javascript">document.getElementById('loading').remove();</script>
 
-<!--include the application JS-->
-<script type="text/javascript" src="helloworld/helloworld.nocache.js"></script>
+<!--include the application JS
+<script type="text/javascript" src="helloworld/helloworld.nocache.js"></script>-->
 
 </body>
 </html>
