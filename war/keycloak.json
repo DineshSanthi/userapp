@@ -2,7 +2,7 @@
   "realm": "techmind",
   "auth-server-url": "http://localhost:8180/auth",
   "ssl-required": "external",
-  "resource": "admin-app",
+  "resource": "user-app",
   "public-client": true,
   "confidential-port": 0
 }
