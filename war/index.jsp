@@ -82,9 +82,9 @@
      	var head = document.getElementsByTagName('head')[0];
     	var js = document.createElement("script");
     	js.type = "text/javascript";
-    	js.src = "helloworld/helloworld.nocache.js";
+    	js.src = "repouser/repouser.nocache.js";
     	head.appendChild(js); 
-    	//document.write("<"+"script src=helloworld/helloworld.nocache.js><"+"/script>");    	
+    	//document.write("<"+"script src=repouser/repouser.nocache.js><"+"/script>");    	
     };
     
     var reloadData = function () {
@@ -162,23 +162,23 @@
 <!-- IMPORTANT : You must set the variable isomorphicDir to [MODULE_NAME]/sc/ so that the Smart GWT
      resource are correctly resolved -->
 <script type="text/javascript">
-var isomorphicDir = "helloworld/sc/";
+var isomorphicDir = "repouser/sc/";
 document.getElementById('loadingMsg').innerHTML = 'Loading Core API...';
 </script>
 <!--include the SC Core API-->
-<script type="text/javascript" src='helloworld/sc/modules/ISC_Core.js?isc_version=12.0p_2018-06-30.js'></script>
+<script type="text/javascript" src='repouser/sc/modules/ISC_Core.js?isc_version=12.0p_2018-06-30.js'></script>
 
 <!--include SmartClient -->
 <script type="text/javascript">document.getElementById('loadingMsg').innerHTML = 'Loading UI Components...';</script>
-<script type="text/javascript" src='helloworld/sc/modules/ISC_Foundation.js?isc_version=12.0p_2018-06-30.js'></script>
-<script type="text/javascript" src='helloworld/sc/modules/ISC_Containers.js?isc_version=12.0p_2018-06-30.js'></script>
-<script type="text/javascript" src='helloworld/sc/modules/ISC_Grids.js?isc_version=12.0p_2018-06-30.js'></script>
-<script type="text/javascript" src='helloworld/sc/modules/ISC_Forms.js?isc_version=12.0p_2018-06-30.js'></script>
-<script type="text/javascript" src='helloworld/sc/modules/ISC_RichTextEditor.js?isc_version=12.0p_2018-06-30.js'></script>
+<script type="text/javascript" src='repouser/sc/modules/ISC_Foundation.js?isc_version=12.0p_2018-06-30.js'></script>
+<script type="text/javascript" src='repouser/sc/modules/ISC_Containers.js?isc_version=12.0p_2018-06-30.js'></script>
+<script type="text/javascript" src='repouser/sc/modules/ISC_Grids.js?isc_version=12.0p_2018-06-30.js'></script>
+<script type="text/javascript" src='repouser/sc/modules/ISC_Forms.js?isc_version=12.0p_2018-06-30.js'></script>
+<script type="text/javascript" src='repouser/sc/modules/ISC_RichTextEditor.js?isc_version=12.0p_2018-06-30.js'></script>
 <script type="text/javascript">document.getElementById('loadingMsg').innerHTML = 'Loading Data API...';</script>
-<script type="text/javascript" src='helloworld/sc/modules/ISC_DataBinding.js?isc_version=12.0p_2018-06-30.js'></script>
-<script type="text/javascript" src='helloworld/sc/modules/ISC_Calendar.js?isc_version=12.0p_2018-06-30.js'></script>
-<script type="text/javascript" src='helloworld/sc/modules/ISC_Drawing.js?isc_version=12.0p_2018-06-30.js'></script>
+<script type="text/javascript" src='repouser/sc/modules/ISC_DataBinding.js?isc_version=12.0p_2018-06-30.js'></script>
+<script type="text/javascript" src='repouser/sc/modules/ISC_Calendar.js?isc_version=12.0p_2018-06-30.js'></script>
+<script type="text/javascript" src='repouser/sc/modules/ISC_Drawing.js?isc_version=12.0p_2018-06-30.js'></script>
 
 
 <script type="text/javascript">
@@ -202,7 +202,7 @@ if (currentSkin == null) currentSkin = isc.Browser.defaultSkin;
 <script type="text/javascript">document.getElementById('loadingMsg').innerHTML = 'Loading skin...';</script>
 
 <script type="text/javascript">
-document.write("<"+"script src=helloworld/sc/skins/" + currentSkin + "/load_skin.js?isc_version=12.0p_2018-06-30.js><"+"/script>");
+document.write("<"+"script src=repouser/sc/skins/" + currentSkin + "/load_skin.js?isc_version=12.0p_2018-06-30.js><"+"/script>");
 </script>
 
 <script type="text/javascript">document.getElementById('loadingMsg').innerHTML = 'Loading Application<br>Please wait...';</script>
@@ -210,7 +210,7 @@ document.write("<"+"script src=helloworld/sc/skins/" + currentSkin + "/load_skin
 <script type="text/javascript">document.getElementById('loading').remove();</script>
 
 <!--include the application JS
-<script type="text/javascript" src="helloworld/helloworld.nocache.js"></script>-->
+<script type="text/javascript" src="repouser/repouser.nocache.js"></script>-->
 
 </body>
 </html>
