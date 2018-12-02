@@ -94,7 +94,7 @@
         .error(loadFailure);
     }
 
-    keycloak.init({ onLoad: 'login-required' })
+    keycloak.init({ onLoad: 'login-required',checkLoginIframe: false })
         .success(reloadData)
         .error(loadFailure);
     
