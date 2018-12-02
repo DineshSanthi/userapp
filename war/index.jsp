@@ -1,7 +1,7 @@
 <script src="http://localhost:8180/auth/js/keycloak.js"></script>
 <script>
 	var repo = window.repo ? window.repo : {};
-	repo.serviceUrl = "http://rest-service-vendor.192.168.99.102.nip.io/";
+	repo.serviceUrl = "http://rest-service-vendor.192.168.99.103.nip.io/";
 	
 	repo.objectDefinition = {};
 	
