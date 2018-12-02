@@ -100,7 +100,7 @@ public class TableRestDS extends AbstractRestDS{
 	}
 
 	public String getCustomFetchDataURL() {
-		return getServiceRoot() + "/SchoolApp";
+		return getServiceRoot() + "/VendorApp";
 	}
 
 	public String getCustomAddDataURL() {
