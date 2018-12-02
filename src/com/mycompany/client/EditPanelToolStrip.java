@@ -20,6 +20,7 @@ public class EditPanelToolStrip extends ToolStrip {
 			public void onClick(ClickEvent event) {
 				// editGrid.saveAllEdits();
 				form.saveData();
+				form.reset();
 			}
 		});
 
